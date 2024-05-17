@@ -35,10 +35,10 @@ export default function LandingPage() {
 	 * 
 	 * @Todo On render & resize, rerender canvas with client viewport width / height aspect ratio.
 	 */
-	const setSize = (container, camera, renderer) => {
-		camera.aspect = container.clientWidth / container.clientHeight;
+	// const setSize = (container, camera, renderer) => {
+	// 	camera.aspect = container.clientWidth / container.clientHeight;
 	
-	}
+	// }
 
 	const Title = () => {
 		return (

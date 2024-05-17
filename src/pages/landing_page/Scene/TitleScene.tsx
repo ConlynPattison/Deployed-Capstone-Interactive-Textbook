@@ -46,7 +46,7 @@ const vertexShader: string = `
     }`;
 
 const useDomToCanvas = (domElement: HTMLElement) => {
-    const [texture, setTexture] = useState();
+    const [texture, setTexture] = useState<CanvasTexture>();
 
     useEffect(() => {
         if (!domElement) return;
@@ -68,10 +68,10 @@ const useDomToCanvas = (domElement: HTMLElement) => {
 export default function Scene() {
     const state = useThree();
     const { width, height } = state.viewport;
-    const [domElement, setDomElement] = useState(null);
+    const [domElement, setDomElement] = useState<HTMLElement>();
     
-    const materialRef = useRef();
-    const textureFromDomElement = useDomToCanvas(domElement);
+    const materialRef = useRef<any>();
+    const textureFromDomElement = useDomToCanvas(domElement!);
 
     const uniforms = useMemo(
         () => ({
@@ -95,7 +95,7 @@ export default function Scene() {
     return (
         <>
             <Html zIndexRange={[-1, -10]} prepend fullscreen>
-                <main style={styles} ref={(el) => setDomElement(el)}>
+                <main style={styles} ref={(el) => setDomElement(el!)}>
                     <h1 className={styles.title}>
                         <span>INTERACTIVE</span><br />
                         TEXTBOOK
