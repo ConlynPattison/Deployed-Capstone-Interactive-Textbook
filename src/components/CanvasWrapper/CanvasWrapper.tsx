@@ -142,7 +142,7 @@ export default function CanvasWrapper(props: CanvasWrapperProps) {
 		}, 10)
 
 		return cleanup
-	}, [])
+	}, [props.scenes])
 
 	const cleanup = () => {
 		clearInterval(runID.current)
