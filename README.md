@@ -1,6 +1,9 @@
 # Interactive Textbook for Geometric Linear Algebra
 
-## Motivation
+<img src="https://github.com/ConlynPattison/Deployed-Capstone-Interactive-Textbook/assets/112051310/b25344d4-8908-4b7b-9cdd-c47f41d4e1a9"
+  align="right" 
+  width="120" height="120">
+
 Linear algebra is a complicated subject and is essential to representing and manipulating geometry in virtual space. There is a lack of free, online software that allows students to interact with the applied concepts. This shortage of material is detrimental as the visual context of this math is crucial to its applications in computer graphics.
 
 ## Approach
