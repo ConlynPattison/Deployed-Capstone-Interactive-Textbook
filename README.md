@@ -28,3 +28,9 @@ User testing was conducted in the CSUMB Graphics Programming class, which provid
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
   <img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white">
 </p>
+
+## Contributors
+* Benjamin Meier
+* Luke Moore
+* Conlyn Pattison
+* Jaden Keller
