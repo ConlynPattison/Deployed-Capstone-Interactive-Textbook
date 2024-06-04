@@ -4,6 +4,8 @@
   align="right" 
   width="120" height="120">
 
+[Vercel Project Deployment](https://graphics-textbook.vercel.app/)
+
 Linear algebra is a complicated subject and is essential to representing and manipulating geometry in virtual space. There is a lack of free, online software that allows students to interact with the applied concepts. This shortage of material is detrimental as the visual context of this math is crucial to its applications in computer graphics.
 
 ## Approach
