@@ -14,9 +14,9 @@ in TypeScript to keep it tidy and well maintained. The online textbook covers ex
 
 ## Results
 Successfully developed a React frontend application and deployed it on Vercel. The application includes:
-Written content covering basic linear algebra concepts
-Interactive elements for each concept
-User testing was conducted in the CSUMB Graphics Programming class, which provided a rich source of feedback and proved that our approach was very easy to understand as well as engaging. 
+- Written content covering basic linear algebra concepts
+- Interactive elements for each concept
+- User testing was conducted in the CSUMB Graphics Programming class, which provided a rich source of feedback and proved that our approach was very easy to understand as well as engaging. 
 
 ## Technologies Used
 <p>
